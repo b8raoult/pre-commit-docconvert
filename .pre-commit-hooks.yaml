@@ -3,3 +3,4 @@
     entry: docconvert
     language: python
     types: [python]
+    args: []
