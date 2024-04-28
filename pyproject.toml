@@ -1,6 +1,6 @@
 [project]
 name = "pre-commit-docconvert"
-version = "0.1.0"
+version = "0.1.1"
 description = "A pre-commit hook to check that docstrings are in the correct format"
 
 dependencies = ["docconvert>=2.1.0"]

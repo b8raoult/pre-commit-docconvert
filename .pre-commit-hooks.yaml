@@ -1,5 +1,5 @@
 -   id: docconvert
-    name: pre-commit-docconvert
-    entry: docconvert --in-place
+    name: Check docstrings
+    entry: docconvert
     language: python
     types: [python]

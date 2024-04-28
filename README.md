@@ -10,7 +10,7 @@ Usage:
   rev: "0.1.0"
   hooks:
   - id: docconvert
-    args: ["-o", "numpy"]
+    args: ["--in-place", "--output", "numpy"]
 ```
 
 `args` can be `google`, `numpy`, `rest` or `epytext`.
