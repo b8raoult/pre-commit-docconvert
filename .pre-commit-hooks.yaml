@@ -1,0 +1,5 @@
+-   id: docconvert
+    name: pre-commit-docconvert
+    entry: docconvert --in-place
+    language: python
+    types: [python]
