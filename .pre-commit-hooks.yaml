@@ -1,6 +1,5 @@
 -   id: docconvert
     name: Check docstrings
-    entry: docconvert
+    entry: python3 -m pre_commit_docconvert --style
     language: python
     types: [python]
-    args: []

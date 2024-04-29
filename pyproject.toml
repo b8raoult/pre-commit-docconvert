@@ -1,6 +1,15 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+
 [project]
 name = "pre-commit-docconvert"
-version = "0.1.1"
+dynamic = ["version"]
 description = "A pre-commit hook to check that docstrings are in the correct format"
 
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+
 dependencies = ["docconvert>=2.1.0"]
+
+[tool.setuptools_scm]
+version_file = "src/pre_commit_docconvert/_version.py"
