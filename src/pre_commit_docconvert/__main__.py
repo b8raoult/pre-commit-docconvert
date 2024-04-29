@@ -1,5 +1,4 @@
 import argparse
-import logging
 
 from docconvert import configuration, core
 
@@ -11,14 +10,7 @@ def main():
     parser.add_argument("files", nargs="+", help="The files to convert.")
     args = parser.parse_args()
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(name)s:%(levelname)s: %(message)s",
-    )
-
     config = configuration.DocconvertConfiguration.create_default()
-
-    logging.info("Using output style: %s", args.style)
 
     config.output_style = args.style
 

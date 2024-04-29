@@ -7,7 +7,7 @@ Usage:
 
 ```yaml
 - repo: https://github.com/b8raoult/pre-commit-docconvert
-  rev: "0.1.3"
+  rev: "0.1.4"
   hooks:
   - id: docconvert
     args: ["numpy"]
