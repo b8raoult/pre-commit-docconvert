@@ -15,7 +15,7 @@ def main():
     config.output_style = args.style
 
     for path in args.files:
-        core.convert(path, config=config, in_place=True)
+        core.convert(path, config=config, in_place=True, threads=1)
 
 
 if __name__ == "__main__":
